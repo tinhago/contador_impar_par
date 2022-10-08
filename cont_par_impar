@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void) {
+  int par=0, impar=0, numero, i;
+
+ 
+
+    for(i=0;i<=10;i++)
+      {
+          printf("\nDigite um número: \n");
+          scanf("%i", & numero);
+        if((numero%2)==0)
+        {
+        par++;
+        } else {
+          impar++;
+        }
+      } 
+    printf("\nQuantidade de par: %i\n",par);
+    printf("\nQuantidade de impar: %i \n",impar);
+  
+  return 0;
+}
